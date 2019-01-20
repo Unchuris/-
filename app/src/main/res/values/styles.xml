@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="recyclerView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
+    </style>
+
+    <style name="CondensedBoldText">
+        <item name="fontPath">fonts/Roboto/RobotoCondensed-Bold.ttf</item>
+    </style>
+
+    <style name="CondensedBoldText.Small">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:textColorPrimary">@color/text_color_white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+</resources>

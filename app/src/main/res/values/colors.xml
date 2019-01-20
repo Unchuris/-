@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b1fa2</color>
+    <color name="colorPrimaryDark">#4a0072</color>
+    <color name="colorAccent">#ae52d4</color>
+
+    <color name="text_color">#313c40</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="divider">#444</color>
+    <color name="scrollbar_color">#99ffffff</color>
+</resources>
